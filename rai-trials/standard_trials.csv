@@ -1,0 +1,135 @@
+block,relation_1,stim_3_id,relation_2,stim_4_id,stim_5_id,relation_3,stim_6_id,stim_7_id,relation_4,stim_8_id,q_word,q_stim_1_id,q_rel,q_stim_2_id,correct_response
+1,is the same as,,,,,,,,,,Is,1,the same as,2,yes
+1,is the same as,,,,,,,,,,Is,1,opposite to,2,no
+1,is opposite to,,,,,,,,,,Is,1,the same as,2,no
+1,is opposite to,,,,,,,,,,Is,1,opposite to,2,yes
+1,is the same as,2,is the same as,3,,,,,,,Is,1,the same as,3,yes
+1,is the same as,2,is the same as,3,,,,,,,Is,3,opposite to,1,no
+1,is the same as,2,is opposite to,3,,,,,,,Is,1,the same as,3,no
+1,is the same as,2,is opposite to,3,,,,,,,Is,3,opposite to,1,yes
+1,is opposite to,2,is opposite to,3,,,,,,,Is,1,the same as,3,yes
+1,is opposite to,2,is opposite to,3,,,,,,,Is,3,opposite to,1,no
+1,is the same as,2,is opposite to,3,3,is the same as,4,,,,Is,1,the same as,4,no
+1,is the same as,2,is opposite to,3,3,is the same as,4,,,,Is,4,opposite to,1,yes
+1,is opposite to,2,is the same as,3,3,is opposite to,4,,,,Is,1,the same as,4,yes
+1,is opposite to,2,is the same as,3,3,is opposite to,4,,,,Is,4,opposite to,1,no
+1,is opposite to,2,is opposite to,3,3,is opposite to,4,,,,Is,1,the same as,4,yes
+1,is opposite to,2,is opposite to,3,3,is opposite to,4,,,,Is,4,opposite to,1,no
+1,is opposite to,2,is the same as,3,3,is opposite to,4,4,is the same as,5,Is,1,the same as,5,yes
+1,is opposite to,2,is the same as,3,3,is opposite to,4,4,is the same as,5,Is,5,opposite to,1,no
+1,is the same as,2,is opposite to,3,3,is the same as,4,4,is opposite to,5,Is,1,the same as,5,no
+1,is the same as,2,is opposite to,3,3,is the same as,4,4,is opposite to,5,Is,5,opposite to,1,yes
+2,is the same as,,,,,,,,,,Is,2,the same as,1,yes
+2,is the same as,,,,,,,,,,Is,1,different to,2,no
+2,is different to,,,,,,,,,,Is,2,the same as,1,no
+2,is different to,,,,,,,,,,Is,1,different to,2,yes
+2,is the same as,2,is the same as,3,,,,,,,Is,3,the same as,1,yes
+2,is the same as,2,is the same as,3,,,,,,,Is,1,different to,3,no
+2,is the same as,2,is different to,3,,,,,,,Is,3,the same as,1,yes
+2,is the same as,2,is different to,3,,,,,,,Is,1,different to,3,yes
+2,is the same as,2,is different to,3,3,is the same as,4,,,,Is,4,the same as,1,no
+2,is the same as,2,is different to,3,3,is the same as,4,,,,Is,1,different to,4,yes
+2,is the same as,2,is the same as,3,3,is different to,4,,,,Is,1,the same as,4,no
+2,is the same as,2,is the same as,3,3,is different to,4,,,,Is,4,different to,1,yes
+2,is the same as,2,is the same as,3,3,is different to,4,4,is the same as,5,Is,5,the same as,1,yes
+2,is the same as,2,is the same as,3,3,is different to,4,4,is the same as,5,Is,1,different to,5,no
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,Is,5,the same as,1,no
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,Is,1,the same as,5,no
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,Is,5,different to,1,yes
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,Is,1,different to,5,yes
+3,is more than,,,,,,,,,,Is,1,more than,2,yes
+3,is more than,,,,,,,,,,Is,1,less than,2,no
+3,is less than,,,,,,,,,,Is,1,more than,2,no
+3,is less than,,,,,,,,,,Is,1,less than,2,yes
+3,is more than,2,is more than,3,,,,,,,Is,1,more than,3,yes
+3,is more than,2,is more than,3,,,,,,,Is,3,less than,1,yes
+3,is more than,3,is less than,2,,,,,,,Is,1,more than,3,yes
+3,is more than,3,is less than,2,,,,,,,Is,3,less than,1,yes
+3,is less than,2,is less than,3,,,,,,,Is,1,more than,3,no
+3,is less than,2,is less than,3,,,,,,,Is,3,less than,1,no
+3,is more than,3,is less than,2,3,is more than,4,,,,Is,1,more than,4,yes
+3,is more than,3,is less than,2,3,is more than,4,,,,Is,4,less than,1,yes
+3,is less than,2,is more than,3,3,is more than,4,,,,Is,1,more than,4,yes
+3,is less than,2,is more than,3,3,is more than,4,,,,Is,4,less than,1,yes
+3,is less than,2,is less than,3,3,is less than,4,,,,Is,1,more than,4,no
+3,is less than,2,is less than,3,3,is less than,4,,,,Is,4,less than,1,no
+3,is less than,3,is more than,2,3,is less than,4,5,is more than,4,Is,1,more than,5,no
+3,is less than,3,is more than,2,3,is less than,4,5,is more than,4,Is,5,less than,1,no
+3,is more than,3,is less than,2,3,is more than,4,5,is less than,4,Is,1,more than,5,yes
+3,is more than,3,is less than,2,3,is more than,4,5,is less than,4,Is,5,less than,1,yes
+4,is before,,,,,,,,,,Is,2,before,1,no
+4,is before,,,,,,,,,,Is,1,after,2,no
+4,is after,,,,,,,,,,Is,2,before,1,yes
+4,is after,,,,,,,,,,Is,1,after,2,yes
+4,is before,2,is before,3,,,,,,,Is,3,before,1,no
+4,is before,2,is before,3,,,,,,,Is,1,after,3,no
+4,is after,2,is after,3,,,,,,,Is,3,before,1,yes
+4,is after,2,is after,3,,,,,,,Is,1,after,3,yes
+4,is after,3,is before,2,,,,,,,Is,3,before,1,yes
+4,is after,3,is before,2,,,,,,,Is,1,after,3,yes
+4,is before,3,is after,2,3,is before,4,,,,Is,4,before,1,no
+4,is before,3,is after,2,3,is before,4,,,,Is,1,after,4,no
+4,is after,2,is after,3,4,is before,3,,,,Is,4,before,1,yes
+4,is after,2,is after,3,4,is before,3,,,,Is,1,after,4,yes
+4,is after,3,is before,2,3,is after,4,,,,Is,4,before,1,yes
+4,is after,3,is before,2,3,is after,4,,,,Is,1,after,4,yes
+4,is after,3,is before,2,3,is after,4,5,is before,4,Is,5,before,1,yes
+4,is after,3,is before,2,3,is after,4,5,is before,4,Is,1,after,5,yes
+4,is before,3,is after,2,3,is before,4,5,is after,4,Is,5,before,1,no
+4,is before,3,is after,2,3,is before,4,5,is after,4,Is,1,after,5,no
+5,contains,,,,,,,,,,Does,1,contain,2,yes
+5,contains,,,,,,,,,,Does,2,contain,1,no
+5,contains,,,,,,,,,,Is,1,within,2,no
+5,contains,,,,,,,,,,Is,2,within,1,yes
+5,is within,,,,,,,,,,Does,1,contain,2,no
+5,is within,,,,,,,,,,Does,2,contain,1,yes
+5,is within,,,,,,,,,,Is,1,within,2,yes
+5,is within,,,,,,,,,,Is,2,within,1,no
+5,contains,2,contains,3,,,,,,,Does,1,contain,3,yes
+5,contains,2,contains,3,,,,,,,Does,3,contain,1,no
+5,contains,2,contains,3,,,,,,,Is,1,within,3,yes
+5,contains,2,contains,3,,,,,,,Is,3,within,1,no
+5,contains,3,is within,2,,,,,,,Does,1,contain,3,yes
+5,contains,3,is within,2,,,,,,,Does,3,contain,1,no
+5,contains,3,is within,2,,,,,,,Is,1,within,3,no
+5,contains,3,is within,2,,,,,,,Is,3,within,1,yes
+5,is within,2,is within,3,,,,,,,Does,1,contain,3,no
+5,is within,2,is within,3,,,,,,,Does,3,contain,1,yes
+5,is within,2,is within,3,,,,,,,Is,1,within,3,yes
+5,is within,2,is within,3,,,,,,,Is,3,within,1,no
+5,contains,3,is within,2,3,contains,4,,,,Does,1,contain,4,yes
+5,contains,3,is within,2,3,contains,4,,,,Does,4,contain,1,no
+5,contains,3,is within,2,3,contains,4,,,,Is,1,within,4,no
+5,contains,3,is within,2,3,contains,4,,,,Is,4,within,1,yes
+5,is within,3,contains,2,4,contains,3,,,,Does,1,contain,4,no
+5,is within,3,contains,2,4,contains,3,,,,Does,4,contain,1,yes
+5,is within,3,contains,2,4,contains,3,,,,Is,1,within,4,yes
+5,is within,3,contains,2,4,contains,3,,,,Is,4,within,1,no
+5,is within,2,is within,3,4,contains,3,,,,Does,1,contain,4,no
+5,is within,2,is within,3,4,contains,3,,,,Does,4,contain,1,yes
+5,is within,2,is within,3,4,contains,3,,,,Is,1,within,4,yes
+5,is within,2,is within,3,4,contains,3,,,,Is,4,within,1,no
+5,contains,3,is within,2,3,contains,4,5,is within ,4,Does,1,contain,5,yes
+5,contains,3,is within,2,3,contains,4,5,is within ,4,Does,5,contain,1,no
+5,contains,3,is within,2,3,contains,4,5,is within ,4,Is,1,within,5,no
+5,contains,3,is within,2,3,contains,4,5,is within ,4,Is,5,within,1,yes
+5,contains,3,is within,2,3,contains,4,4,contains,5,Does,1,contain,5,yes
+5,contains,3,is within,2,3,contains,4,4,contains,5,Does,5,contain,1,no
+5,contains,3,is within,2,3,contains,4,4,contains,5,Is,1,within,5,no
+5,contains,3,is within,2,3,contains,4,4,contains,5,Is,5,within,1,yes
+5,is within,3,contains,2,4,contains,3,5,contains,4,Does,1,contain,5,no
+5,is within,3,contains,2,4,contains,3,5,contains,4,Does,5,contain,1,yes
+5,is within,3,contains,2,4,contains,3,5,contains,4,Is,1,within,5,yes
+5,is within,3,contains,2,4,contains,3,5,contains,4,Is,5,within,1,no
+5,is within,3,contains,2,4,contains,3,4,is within,5,Does,1,contain,5,no
+5,is within,3,contains,2,4,contains,3,4,is within,5,Does,5,contain,1,yes
+5,is within,3,contains,2,4,contains,3,4,is within,5,Is,1,within,5,yes
+5,is within,3,contains,2,4,contains,3,4,is within,5,Is,5,within,1,no
+5,is within,2,is within,3,4,contains,3,5,contains,4,Does,1,contain,5,no
+5,is within,2,is within,3,4,contains,3,5,contains,4,Does,5,contain,1,yes
+5,is within,2,is within,3,4,contains,3,5,contains,4,Is,1,within,5,yes
+5,is within,2,is within,3,4,contains,3,5,contains,4,Is,5,within,1,no
+5,is within,2,is within,3,4,contains,3,4,is within,5,Does,1,contain,5,no
+5,is within,2,is within,3,4,contains,3,4,is within,5,Does,5,contain,1,yes
+5,is within,2,is within,3,4,contains,3,4,is within,5,Is,1,within,5,yes
+5,is within,2,is within,3,4,contains,3,4,is within,5,Is,5,within,1,no

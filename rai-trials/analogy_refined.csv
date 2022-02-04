@@ -1,0 +1,17 @@
+block,trial_num,relation_1,relation_2,q_stim_1_id,q_stim_2_id,q_rel,q_stim_3_id,q_stim_4_id,correct_response,trial_num
+6,,is the same as,is the same as,1,2,the same as,3,4,yes,81
+6,,is the same as,is the same as,1,2,opposite to,4,3,no,82
+6,,is the same as,is the same as,2,1,opposite to,4,3,no,83
+6,,is the same as,is opposite to,1,2,the same as,4,3,no,84
+6,,is the same as,is opposite to,2,1,opposite to,3,4,yes,85
+6,,is opposite to,is opposite to,1,2,the same as,4,3,yes,86
+6,,is opposite to,is opposite to,1,2,opposite to,3,4,no,87
+6,,is opposite to,is opposite to,2,1,opposite to,3,4,no,88
+6,,is more than,is more than,1,2,the same as,4,3,no,89
+6,,is more than,is more than,1,2,opposite to,3,4,no,90
+6,,is more than,is more than,2,1,opposite to,3,4,yes,91
+6,,is more than,is less than,1,2,the same as,3,4,no,92
+6,,is more than,is less than,2,1,opposite to,4,3,no,93
+6,,is less than,is less than,2,1,the same as,3,4,no,94
+6,,is less than,is less than,1,2,opposite to,4,3,yes,95
+6,,is less than,is less than,2,1,opposite to,4,3,no,96

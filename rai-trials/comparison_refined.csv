@@ -1,0 +1,17 @@
+block,relation_1,stim_3_id,relation_2,stim_4_id,stim_5_id,relation_3,stim_6_id,stim_7_id,relation_4,stim_8_id,q_stim_1_id,q_rel,q_stim_2_id,correct_response
+3,is more than,2,is more than,3,,,,,,,1,is more than,3,y
+3,is more than,2,is more than,3,,,,,,,3,is less than,1,y
+3,is more than,3,is less than,2,,,,,,,1,is more than,3,y
+3,is more than,3,is less than,2,,,,,,,3,is less than,1,y
+3,is less than,2,is less than,3,,,,,,,1,is more than,3,n
+3,is less than,2,is less than,3,,,,,,,3,is less than,1,n
+3,is more than,3,is less than,2,3,is more than,4,,,,1,is more than,4,y
+3,is more than,3,is less than,2,3,is more than,4,,,,4,is less than,1,y
+3,is less than,2,is more than,3,3,is more than,4,,,,1,is more than,4,y
+3,is less than,2,is more than,3,3,is more than,4,,,,4,is less than,1,y
+3,is less than,2,is less than,3,3,is less than,4,,,,1,is more than,4,n
+3,is less than,2,is less than,3,3,is less than,4,,,,4,is less than,1,n
+3,is less than,3,is more than,2,3,is less than,4,5,is more than,4,1,is more than,5,n
+3,is less than,3,is more than,2,3,is less than,4,5,is more than,4,5,is less than,1,n
+3,is more than,3,is less than,2,3,is more than,4,5,is less than,4,1,is more than,5,y
+3,is more than,3,is less than,2,3,is more than,4,5,is less than,4,5,is less than,1,y

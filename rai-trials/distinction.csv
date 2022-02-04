@@ -1,0 +1,19 @@
+block,relation_1,stim_3_id,relation_2,stim_4_id,stim_5_id,relation_3,stim_6_id,stim_7_id,relation_4,stim_8_id,q_stim_1_id,q_rel,q_stim_2_id,correct_response
+2,is the same as,,,,,,,,,,2,is the same as,1,y
+2,is the same as,,,,,,,,,,1,is different to,2,n
+2,is different to,,,,,,,,,,2,is the same as,1,n
+2,is different to,,,,,,,,,,1,is different to,2,y
+2,is the same as,2,is the same as,3,,,,,,,3,is the same as,1,y
+2,is the same as,2,is the same as,3,,,,,,,1,is different to,3,n
+2,is the same as,2,is different to,3,,,,,,,3,is the same as,1,y
+2,is the same as,2,is different to,3,,,,,,,1,is different to,3,y
+2,is the same as,2,is different to,3,3,is the same as,4,,,,4,is the same as,1,n
+2,is the same as,2,is different to,3,3,is the same as,4,,,,1,is different to,4,y
+2,is the same as,2,is the same as,3,3,is different to,4,,,,1,is the same as,4,n
+2,is the same as,2,is the same as,3,3,is different to,4,,,,4,is different to,1,y
+2,is the same as,2,is the same as,3,3,is different to,4,4,is the same as,5,5,is the same as,1,y
+2,is the same as,2,is the same as,3,3,is different to,4,4,is the same as,5,1,is different to,5,n
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,5,is the same as,1,n
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,1,is the same as,5,n
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,5,is different to,1,y
+2,is the same as,2,is different to,3,3,is the same as,4,4,is the same as,5,1,is different to,5,y

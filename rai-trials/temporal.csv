@@ -1,0 +1,21 @@
+block,relation_1,stim_3_id,relation_2,stim_4_id,stim_5_id,relation_3,stim_6_id,stim_7_id,relation_4,stim_8_id,q_stim_1_id,q_rel,q_stim_2_id,correct_response
+4,is before,,,,,,,,,,2,is before,1,n
+4,is before,,,,,,,,,,1,is after,2,n
+4,is after,,,,,,,,,,2,is before,1,y
+4,is after,,,,,,,,,,1,is after,2,y
+4,is before,2,is before,3,,,,,,,3,is before,1,n
+4,is before,2,is before,3,,,,,,,1,is after,3,n
+4,is after,2,is after,3,,,,,,,3,is before,1,y
+4,is after,2,is after,3,,,,,,,1,is after,3,y
+4,is after,3,is before,2,,,,,,,3,is before,1,y
+4,is after,3,is before,2,,,,,,,1,is after,3,y
+4,is before,3,is after,2,3,is before,4,,,,4,is before,1,n
+4,is before,3,is after,2,3,is before,4,,,,1,is after,4,n
+4,is after,2,is after,3,4,is before,3,,,,4,is before,1,y
+4,is after,2,is after,3,4,is before,3,,,,1,is after,4,y
+4,is after,3,is before,2,3,is after,4,,,,4,is before,1,y
+4,is after,3,is before,2,3,is after,4,,,,1,is after,4,y
+4,is after,3,is before,2,3,is after,4,5,is before,4,5,is before,1,y
+4,is after,3,is before,2,3,is after,4,5,is before,4,1,is after,5,y
+4,is before,3,is after,2,3,is before,4,5,is after,4,5,is before,1,n
+4,is before,3,is after,2,3,is before,4,5,is after,4,1,is after,5,n

@@ -1,0 +1,17 @@
+block,relation_1,meta_relation_1,relation_2,meta_stim_1_id,meta_relation_2,meta_stim_2_id,q_stim_1_id,q_rel,q_stim_2_id,correct_response,trial_num
+8,+,is hetzelfde als,+,1,is meer dan,3,2,meer dan,4,no,113
+8,+,is hetzelfde als,+,1,is meer dan,3,4,minder dan,2,no,114
+8,+,is hetzelfde als,+,1,is minder dan,3,2,meer dan,4,yes,115
+8,+,is hetzelfde als,+,1,is minder dan,3,4,minder dan,2,yes,116
+8,-,is hetzelfde als,-,1,is meer dan,3,2,minder dan,4,no,117
+8,-,is hetzelfde als,-,1,is meer dan,3,4,meer dan,2,no,118
+8,-,is hetzelfde als,-,1,is minder dan,3,2,minder dan,4,yes,119
+8,-,is hetzelfde als,-,1,is minder dan,3,4,meer dan,2,yes,120
+9,+,is meer dan,+,1,is hetzelfde als,3,2,minder dan,4,no,121
+9,+,is meer dan,+,1,is hetzelfde als,3,4,meer dan,2,no,122
+9,-,is meer dan,-,1,is hetzelfde als,3,2,minder dan,4,yes,123
+9,-,is meer dan,-,1,is hetzelfde als,3,4,meer dan,2,yes,124
+9,+,is minder dan,+,2,is hetzelfde als,4,1,meer dan,3,no,125
+9,+,is minder dan,+,2,is hetzelfde als,4,3,minder dan,1,no,126
+9,-,is minder dan,-,2,is hetzelfde als,4,1,meer dan,3,no,127
+9,-,is minder dan,-,2,is hetzelfde als,4,3,minder dan,1,no,128

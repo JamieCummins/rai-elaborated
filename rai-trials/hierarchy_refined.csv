@@ -1,0 +1,17 @@
+block,relation_1,stim_3_id,relation_2,stim_4_id,stim_5_id,relation_3,stim_6_id,stim_7_id,relation_4,stim_8_id,q_stim_1_id,q_rel,q_stim_2_id,correct_response
+6,contains,,,,,,,,,,2,contain,1,n
+6,is within,,,,,,,,,,2,contain,1,y
+6,contains,2,contains,3,,,,,,,3,within,1,n
+6,contains,3,is within,2,,,,,,,3,contain,1,n
+6,contains,3,is within,2,,,,,,,1,within,3,n
+6,is within,2,is within,3,,,,,,,3,contain,1,y
+6,contains,3,is within,2,3,contains,4,,,,1,contain,4,y
+6,contains,3,is within,2,3,contains,4,,,,4,within,1,y
+6,is within,3,contains,2,4,contains,3,,,,4,contain,1,y
+6,is within,3,contains,2,4,contains,3,,,,1,within,4,y
+6,is within,2,is within,3,4,contains,3,,,,1,contain,4,n
+6,is within,2,is within,3,4,contains,3,,,,4,within,1,n
+6,contains,3,is within,2,3,contains,4,5,is within ,4,1,contain,5,y
+6,contains,3,is within,2,3,contains,4,4,contains,5,5,contain,1,n
+6,is within,3,contains,2,4,contains,3,5,contains,4,5,within,1,n
+6,is within,2,is within,3,4,contains,3,5,contains,4,1,within,5,y

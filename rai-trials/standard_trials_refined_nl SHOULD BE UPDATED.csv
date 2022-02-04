@@ -1,0 +1,81 @@
+block,relation_1,stim_3_id,relation_2,stim_4_id,stim_5_id,relation_3,stim_6_id,stim_7_id,relation_4,stim_8_id,q_stim_1_id,q_rel,q_stim_2_id,correct_response,trial_num,q_word
+1,is hetzelfde als,2,is hetzelfde als,3,,,,,,,1,hetzelfde als,3,yes,1,Is
+1,is hetzelfde als,2,is hetzelfde als,3,,,,,,,3,het tegenovergestelde van,1,no,2,Is
+1,is hetzelfde als,2,is het tegenovergestelde van,3,,,,,,,1,hetzelfde als,3,no,3,Is
+1,is hetzelfde als,2,is het tegenovergestelde van,3,,,,,,,3,het tegenovergestelde van,1,yes,4,Is
+1,is het tegenovergestelde van,2,is het tegenovergestelde van,3,,,,,,,1,hetzelfde als,3,yes,5,Is
+1,is het tegenovergestelde van,2,is het tegenovergestelde van,3,,,,,,,3,het tegenovergestelde van,1,no,6,Is
+1,is hetzelfde als,2,is het tegenovergestelde van,3,3,is hetzelfde als,4,,,,1,hetzelfde als,4,no,7,Is
+1,is hetzelfde als,2,is het tegenovergestelde van,3,3,is hetzelfde als,4,,,,4,het tegenovergestelde van,1,yes,8,Is
+1,is het tegenovergestelde van,2,is hetzelfde als,3,3,is het tegenovergestelde van,4,,,,1,hetzelfde als,4,yes,9,Is
+1,is het tegenovergestelde van,2,is hetzelfde als,3,3,is het tegenovergestelde van,4,,,,4,het tegenovergestelde van,1,no,10,Is
+1,is het tegenovergestelde van,2,is het tegenovergestelde van,3,3,is het tegenovergestelde van,4,,,,1,hetzelfde als,4,yes,11,Is
+1,is het tegenovergestelde van,2,is het tegenovergestelde van,3,3,is het tegenovergestelde van,4,,,,4,het tegenovergestelde van,1,no,12,Is
+1,is het tegenovergestelde van,2,is hetzelfde als,3,3,is het tegenovergestelde van,4,4,is hetzelfde als,5,1,hetzelfde als,5,yes,13,Is
+1,is het tegenovergestelde van,2,is hetzelfde als,3,3,is het tegenovergestelde van,4,4,is hetzelfde als,5,5,het tegenovergestelde van,1,no,14,Is
+1,is hetzelfde als,2,is het tegenovergestelde van,3,3,is hetzelfde als,4,4,is het tegenovergestelde van,5,1,hetzelfde als,5,no,15,Is
+1,is hetzelfde als,2,is het tegenovergestelde van,3,3,is hetzelfde als,4,4,is het tegenovergestelde van,5,5,het tegenovergestelde van,1,yes,16,Is
+2,is hetzelfde als,2,is hetzelfde als,3,,,,,,,3,hetzelfde als,1,yes,17,Is
+2,is hetzelfde als,2,is hetzelfde als,3,,,,,,,1,anders dan,3,no,18,Is
+2,is hetzelfde als,2,is anders dan,3,,,,,,,3,hetzelfde als,1,yes,19,Is
+2,is hetzelfde als,2,is anders dan,3,,,,,,,1,anders dan,3,yes,20,Is
+2,is anders dan,2,is hetzelfde als,3,,,,,,,3,hetzelfde als,1,no,21,Is
+2,is anders dan,2,is hetzelfde als,3,,,,,,,1,anders dan,3,yes,22,Is
+2,is hetzelfde als,2,is anders dan,3,3,is hetzelfde als,4,,,,4,hetzelfde als,1,no,23,Is
+2,is hetzelfde als,2,is anders dan,3,3,is hetzelfde als,4,,,,1,anders dan,4,yes,24,Is
+2,is hetzelfde als,2,is hetzelfde als,3,3,is anders dan,4,,,,1,hetzelfde als,4,no,25,Is
+2,is hetzelfde als,2,is hetzelfde als,3,3,is anders dan,4,,,,4,anders dan,1,yes,26,Is
+2,is hetzelfde als,2,is hetzelfde als,3,3,is anders dan,4,4,is hetzelfde als,5,5,hetzelfde als,1,yes,27,Is
+2,is hetzelfde als,2,is hetzelfde als,3,3,is anders dan,4,4,is hetzelfde als,5,1,anders dan,5,no,28,Is
+2,is hetzelfde als,2,is anders dan,3,3,is hetzelfde als,4,4,is hetzelfde als,5,5,hetzelfde als,1,no,29,Is
+2,is hetzelfde als,2,is anders dan,3,3,is hetzelfde als,4,4,is hetzelfde als,5,1,hetzelfde als,5,no,30,Is
+2,is hetzelfde als,2,is anders dan,3,3,is hetzelfde als,4,4,is hetzelfde als,5,5,anders dan,1,yes,31,Is
+2,is hetzelfde als,2,is anders dan,3,3,is hetzelfde als,4,4,is hetzelfde als,5,1,anders dan,5,yes,32,Is
+3,is meer dan,2,is meer dan,3,,,,,,,1,meer dan,3,yes,33,Is
+3,is meer dan,2,is meer dan,3,,,,,,,3,minder dan,1,yes,34,Is
+3,is meer dan,3,is minder dan,2,,,,,,,1,meer dan,3,yes,35,Is
+3,is meer dan,3,is minder dan,2,,,,,,,3,minder dan,1,yes,36,Is
+3,is minder dan,2,is minder dan,3,,,,,,,1,meer dan,3,no,37,Is
+3,is minder dan,2,is minder dan,3,,,,,,,3,minder dan,1,no,38,Is
+3,is meer dan,3,is minder dan,2,3,is meer dan,4,,,,1,meer dan,4,yes,39,Is
+3,is meer dan,3,is minder dan,2,3,is meer dan,4,,,,4,minder dan,1,yes,40,Is
+3,is minder dan,2,is meer dan,3,3,is meer dan,4,,,,1,meer dan,4,yes,41,Is
+3,is minder dan,2,is meer dan,3,3,is meer dan,4,,,,4,minder dan,1,yes,42,Is
+3,is minder dan,2,is minder dan,3,3,is minder dan,4,,,,1,meer dan,4,no,43,Is
+3,is minder dan,2,is minder dan,3,3,is minder dan,4,,,,4,minder dan,1,no,44,Is
+3,is minder dan,3,is meer dan,2,3,is minder dan,4,5,is meer dan,4,1,meer dan,5,no,45,Is
+3,is minder dan,3,is meer dan,2,3,is minder dan,4,5,is meer dan,4,5,minder dan,1,no,46,Is
+3,is meer dan,3,is minder dan,2,3,is meer dan,4,5,is minder dan,4,1,meer dan,5,yes,47,Is
+3,is meer dan,3,is minder dan,2,3,is meer dan,4,5,is minder dan,4,5,minder dan,1,yes,48,Is
+4,komt voor,2,komt voor,3,,,,,,,3,voor,1,no,49,Komt
+4,komt voor,2,komt voor,3,,,,,,,1,na,3,no,50,Komt
+4,komt na,2,komt na,3,,,,,,,3,voor,1,yes,51,Komt
+4,komt na,2,komt na,3,,,,,,,1,na,3,yes,52,Komt
+4,komt na,3,komt voor,2,,,,,,,3,voor,1,yes,53,Komt
+4,komt na,3,komt voor,2,,,,,,,1,na,3,yes,54,Komt
+4,komt voor,3,komt na,2,3,komt voor,4,,,,4,voor,1,no,55,Komt
+4,komt voor,3,komt na,2,3,komt voor,4,,,,1,na,4,no,56,Komt
+4,komt na,2,komt na,3,4,komt voor,3,,,,4,voor,1,yes,57,Komt
+4,komt na,2,komt na,3,4,komt voor,3,,,,1,na,4,yes,58,Komt
+4,komt na,3,komt voor,2,3,komt na,4,,,,4,voor,1,yes,59,Komt
+4,komt na,3,komt voor,2,3,komt na,4,,,,1,na,4,yes,60,Komt
+4,komt na,3,komt voor,2,3,komt na,4,5,komt voor,4,5,voor,1,yes,61,Komt
+4,komt na,3,komt voor,2,3,komt na,4,5,komt voor,4,1,na,5,yes,62,Komt
+4,komt voor,3,komt na,2,3,komt voor,4,5,komt na,4,5,voor,1,no,63,Komt
+4,komt voor,3,komt na,2,3,komt voor,4,5,komt na,4,1,na,5,no,64,Komt
+5,bevat,,,,,,,,,,2,,1,no,65,Bevat
+5,is binnen,,,,,,,,,,2,,1,yes,66,Bevat
+5,bevat,2,bevat,3,,,,,,,3,binnen,1,no,67,Is
+5,bevat,3,is binnen,2,,,,,,,3,,1,no,68,Bevat
+5,bevat,3,is binnen,2,,,,,,,1,binnen,3,no,69,Is
+5,is binnen,2,is binnen,3,,,,,,,3,,1,yes,70,Bevat
+5,bevat,3,is binnen,2,3,bevat,4,,,,1,,4,yes,71,Bevat
+5,bevat,3,is binnen,2,3,bevat,4,,,,4,binnen,1,yes,72,Is
+5,is binnen,3,bevat,2,4,bevat,3,,,,4,,1,yes,73,Bevat
+5,is binnen,3,bevat,2,4,bevat,3,,,,1,binnen,4,yes,74,Is
+5,is binnen,2,is binnen,3,4,bevat,3,,,,1,,4,no,75,Bevat
+5,is binnen,2,is binnen,3,4,bevat,3,,,,4,binnen,1,no,76,Is
+5,bevat,3,is binnen,2,3,bevat,4,5,is binnen ,4,1,,5,yes,77,Bevat
+5,bevat,3,is binnen,2,3,bevat,4,4,bevat,5,5,,1,no,78,Bevat
+5,is binnen,3,bevat,2,4,bevat,3,5,bevat,4,5,binnen,1,no,79,Is
+5,is binnen,2,is binnen,3,4,bevat,3,5,bevat,4,1,binnen,5,yes,80,Is

@@ -84,11 +84,11 @@ const study = lab.util.fromObject({
             {
               "type": "text",
               "title": "",
-              "content": "U zult nu een test maken die wordt gebruikt om te meten hoe goed mensen concepten op verschillende manieren met elkaar in verband kunnen brengen.\u003Cbr\u003EU krijgt in totaal 128 proeven in deze taak. Bij elke proef krijgt u 1-4 uitspraken te zien over de relatie tussen denkbeeldige woorden (bijvoorbeeld: CUG is hetzelfde als JOM, JOM is hetzelfde als VEK). Onderaan het scherm krijgt u een vraag over de relatie tussen deze woorden (bijvoorbeeld: is CUG anders dan VEK?).\u003Cbr\u003E\u003Cbr\u003EU moet deze vraag nauwkeurig beantwoorden door \"JA\" of \"NEE\" te kiezen, op basis van de informatie die u krijgt.\u003Cbr\u003EAls u een smartphone gebruikt, kunt u ja of nee kiezen door simpelweg op de ja\u002Fnee toetsen te tikken. Gebruikt u een computer, dan klikt u eenvoudig op de ja\u002Fnee toetsen."
+              "content": "U zult nu een test maken die wordt gebruikt om te meten hoe goed mensen concepten met elkaar in verband kunnen brengen op verschillende manieren.\u003Cbr\u003EU krijgt in totaal 128 oefeningen in deze test. Bij elke oefening krijgt u minstens 1 en maximum 4 uitspraken te zien over de relatie tussen denkbeeldige woorden (bijvoorbeeld: CUG is hetzelfde als JOM, JOM is hetzelfde als VEK). Onderaan het scherm krijgt u een vraag over de relatie tussen deze woorden (bijvoorbeeld: is CUG anders dan VEK?).\u003Cbr\u003E\u003Cbr\u003EU moet deze vraag nauwkeurig beantwoorden door \"JA\" of \"NEE\" te kiezen onderaan op uw scherm op basis van de informatie die u krijgt. "
             }
           ],
           "scrollTop": true,
-          "submitButtonText": "Doorgaan →",
+          "submitButtonText": "Continue →",
           "submitButtonPosition": "right",
           "files": {},
           "responses": {
@@ -104,7 +104,7 @@ const study = lab.util.fromObject({
             {
               "type": "text",
               "title": "Belangrijk!",
-              "content": "Bij elke proef heeft u 30 seconden om te reageren. Na deze 30 seconden, als u niet hebt gereageerd, wordt de proef beëindigd en gaat u onmiddellijk door naar de volgende proef."
+              "content": "Bij elke oefening heeft u 30 seconden om te reageren. Na deze 30 seconden wordt de oefening beëindigd, ook als u nog niet heeft geantwoord, en gaat u onmiddellijk door naar de volgende oefening. "
             },
             {
               "required": true,
@@ -654,7 +654,7 @@ const study = lab.util.fromObject({
               "q_stim_1_id": "1",
               "q_rel": "anders dan",
               "q_stim_2_id": "5",
-              "correct_response": "no",
+              "correct_response": "yes",
               "trial_num": "28",
               "q_word": "Is"
             },
@@ -889,38 +889,38 @@ const study = lab.util.fromObject({
             {
               "block": "3",
               "relation_1": "is minder dan",
-              "stim_3_id": "2",
+              "stim_3_id": "3",
               "relation_2": "is meer dan",
-              "stim_4_id": "3",
-              "stim_5_id": "3",
+              "stim_4_id": "2",
+              "stim_5_id": "4",
               "relation_3": "is meer dan",
-              "stim_6_id": "4",
+              "stim_6_id": "3",
               "stim_7_id": "",
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "1",
               "q_rel": "meer dan",
               "q_stim_2_id": "4",
-              "correct_response": "yes",
+              "correct_response": "no",
               "trial_num": "41",
               "q_word": "Is"
             },
             {
               "block": "3",
               "relation_1": "is minder dan",
-              "stim_3_id": "2",
+              "stim_3_id": "3",
               "relation_2": "is meer dan",
-              "stim_4_id": "3",
-              "stim_5_id": "3",
+              "stim_4_id": "2",
+              "stim_5_id": "4",
               "relation_3": "is meer dan",
-              "stim_6_id": "4",
+              "stim_6_id": "3",
               "stim_7_id": "",
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "4",
               "q_rel": "minder dan",
               "q_stim_2_id": "1",
-              "correct_response": "yes",
+              "correct_response": "no",
               "trial_num": "42",
               "q_word": "Is"
             },
@@ -1355,11 +1355,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "2",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "1",
               "correct_response": "no",
               "trial_num": "65",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1374,11 +1374,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "2",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "1",
               "correct_response": "yes",
               "trial_num": "66",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1395,7 +1395,7 @@ const study = lab.util.fromObject({
               "q_stim_1_id": "3",
               "q_rel": "binnen",
               "q_stim_2_id": "1",
-              "correct_response": "no",
+              "correct_response": "yes",
               "trial_num": "67",
               "q_word": "Is"
             },
@@ -1412,11 +1412,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "3",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "1",
               "correct_response": "no",
               "trial_num": "68",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1450,11 +1450,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "3",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "1",
               "correct_response": "yes",
               "trial_num": "70",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1469,11 +1469,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "1",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "4",
               "correct_response": "yes",
               "trial_num": "71",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1507,11 +1507,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "4",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "1",
               "correct_response": "yes",
               "trial_num": "73",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1545,11 +1545,11 @@ const study = lab.util.fromObject({
               "relation_4": "",
               "stim_8_id": "",
               "q_stim_1_id": "1",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "4",
               "correct_response": "no",
               "trial_num": "75",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1583,11 +1583,11 @@ const study = lab.util.fromObject({
               "relation_4": "is binnen",
               "stim_8_id": "4",
               "q_stim_1_id": "1",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "5",
               "correct_response": "yes",
               "trial_num": "77",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1602,11 +1602,11 @@ const study = lab.util.fromObject({
               "relation_4": "bevat",
               "stim_8_id": "5",
               "q_stim_1_id": "5",
-              "q_rel": "",
+              "q_rel": "Bevat",
               "q_stim_2_id": "1",
               "correct_response": "no",
               "trial_num": "78",
-              "q_word": "Bevat"
+              "q_word": ""
             },
             {
               "block": "5",
@@ -1658,17 +1658,17 @@ const study = lab.util.fromObject({
             "before:prepare": function anonymous(
 ) {
 // define each of the four potential stimuli per trial //
-this.state.stimulus_1_bucket = ['BOR', 'COC', 'WUC', 'QOZ', 'NEZ', 'VOM', 'LAJ', 'XUL', 'WAQ', 'QIK', 'QEZ', 'DIL', 'WAJ', 'XEM', 'CUQ', 'CEY', 'QIQ', 'MOX', 'JIV', 'NUH', 'RUH', 'JIZ', 'TEB', 'GUC', 'LIX', 'XEJ', 'JAQ', 'POZ', 'DUJ', 'JAC', 'SOH', 'JIS', 'NAC', 'QOP', 'YOV', 'NAS', 'KUK', 'YIK', 'YIF', 'GOF', 'JEC', 'YUC', 'CIH', 'KUP', 'WUW', 'XEP', 'CIP', 'QAG', 'CIM', 'CUW', 'JUZ', 'YOZ', 'SAZ', 'REW', 'CAX', 'FAP', 'BUX', 'KOH', 'RER', 'QIX', 'FUX', 'VUP', 'FIP', 'KIV', 'XUD', 'QOF', 'MOH', 'HAZ', 'LIM', 'GIQ', 'BUZ', 'GUG', 'KES', 'HOX', 'MIF', 'QOB', 'VAP', 'XUX', 'QOS', 'QED', 'NUX', 'WAV', 'BIX', 'XIC', 'COV', 'NIJ', 'JIR', 'QUC', 'YEC', 'DUM', 'RAQ', 'QES', 'DAF', 'XAT', 'MEB', 'WEW', 'NAQ', 'XEN', 'BUK', 'MUP', 'ROQ', 'NAX', 'YIR', 'SED', 'WIB', 'XIH', 'RUR', 'KAQ', 'PUW', 'POC', 'JIH', 'XUS', 'QIJ', 'PEC', 'QEL', 'MEV', 'XIB', 'CAG', 'QUX', 'YUD', 'TOS', 'GER', 'MEY', 'MUX', 'JEK', 'YIG', 'QIP', 'CIC', 'CUK', 'XAV', 'YIJ', 'XIR', 'TEC', 'YAS', 'NIF', 'LOZ', 'SAV', 'CAF', 'WEY', 'GAJ', 'KUZ', 'FEF', 'GIR', 'WEV', 'QUZ', 'CIB', 'REQ', 'SEJ', 'DUZ', 'KUM', 'XAZ', 'TUS', 'CID', 'YEB', 'XOC', 'NUJ', 'GUQ', 'HIX', 'TIY', 'BUP', 'HAC', 'QEK', 'QEX', 'SIY', 'GOL', 'NUG', 'QIR', 'CEF', 'CEZ', 'TEV', 'QIY', 'KEC', 'YUV', 'LOH', 'YEM', 'KIH', 'QIC', 'YOH', 'QUP', 'SUS', 'GUK', 'YAV', 'TEY', 'CEW', 'QUH', 'GOC', 'HOZ', 'VOR', 'KIW', 'XIW', 'LIC', 'XAC', 'PAB', 'DEP', 'BAQ', 'XEF', 'LOV', 'HOQ', 'FUW', 'QET', 'LAQ', 'MOC', 'POQ', 'KOB', 'QEG', 'GOG', 'WEQ', 'SUV', 'YUQ', 'QON', 'PEH', 'VUN', 'FIJ', 'PIM', 'RUY', 'LUC', 'MUB', 'JIC', 'WUF', 'PIR', 'PEM', 'JIP', 'WUH', 'LUP', 'MEH', 'DOX', 'PIV', 'VOK', 'LEZ', 'HIG', 'VUH', 'YOR', 'HUZ', 'RUC', 'QOR', 'PEB', 'XIZ', 'XIF', 'SIW', 'XOK', 'RIR', 'TIQ', 'VEW', 'ROR', 'JEY', 'FUY', 'QOL'];
-this.state.stimulus_2_bucket = ['SUR', 'VUS', 'BAZ', 'WEH', 'KEH', 'YOP', 'GAH', 'XEW', 'NIY', 'JOX', 'GEW', 'CIK', 'FEC', 'TOZ', 'CEJ', 'CEH', 'MAZ', 'RAC', 'NUM', 'GEV', 'CAS', 'QAQ', 'PEQ', 'XID', 'QOG', 'NOJ', 'YOQ', 'LUD', 'VUL', 'QAV', 'BAX', 'PIF', 'KOJ', 'CIF', 'SEP', 'QUV', 'CUL', 'ROX', 'FIM', 'NUC', 'QIM', 'PEJ', 'SAQ', 'QAR', 'KEQ', 'MED', 'GEF', 'POV', 'RAV', 'HUD', 'NAM', 'DOH', 'JER', 'TIZ', 'JUV', 'NEX', 'CIX', 'LUY', 'XIG', 'NOC', 'TUY', 'YAB', 'QOK', 'DUL', 'NOV', 'LIH', 'PIY', 'WUX', 'BIY', 'NEN', 'VUQ', 'DEF', 'SOG', 'XIX', 'BUF', 'GOW', 'CUX', 'HIQ', 'VIY', 'BIM', 'SOC', 'QEP', 'HIF', 'KAH', 'QAY', 'WEF', 'LUB', 'MUR', 'VIK', 'JUJ', 'MEJ', 'JIT', 'DIW', 'NID', 'PEY', 'LUF', 'VAJ', 'NIK', 'XAY', 'VIJ', 'JOS', 'YUF', 'SEB', 'TEQ', 'KOC', 'VIZ', 'TAC', 'DET', 'KAV', 'TOV', 'SUW', 'KAL', 'KIG', 'PUC', 'SUC', 'RUV', 'CIY', 'CEP', 'MUV', 'JIF', 'BOZ', 'QUL', 'YEL', 'GOQ', 'QIS', 'YUB', 'QAK', 'QUJ', 'NIW', 'FIH', 'MAQ', 'QAL', 'SOQ', 'HUF', 'GIC', 'NOQ', 'QUQ', 'TIW', 'MER', 'VOG', 'JUC', 'VES', 'TES', 'NEY', 'JUX', 'XUQ', 'LOJ', 'QIB', 'VIW', 'BUV', 'DAJ', 'XEQ', 'LEQ', 'PAQ', 'MEC', 'SOJ', 'FEX', 'VOC', 'QAW', 'GUB', 'LIW', 'HUX', 'YOF', 'XUY', 'HUS', 'WOY', 'JUR', 'HUC', 'CUY', 'RIZ', 'CEK', 'VIX', 'CUS', 'QOC', 'VUC', 'NUD', 'HIH', 'YOX', 'WIM', 'FIC', 'CUF', 'XOJ', 'XES', 'JIY', 'XUN', 'XIY', 'QID', 'YIV', 'FOW', 'GUF', 'TAH', 'MIY', 'FAQ', 'QAP', 'COQ', 'XOS', 'CAJ', 'GIH', 'MIP', 'DOQ', 'QOX', 'VOP', 'WOM', 'WAH', 'SEY', 'MIZ', 'WIX', 'DIF', 'DEH', 'KEJ', 'CUN', 'KUB', 'QUW', 'WUM', 'VAB', 'VIF', 'KIY', 'POY', 'XOX', 'YIB', 'LUT', 'WOZ', 'RIV', 'FOM', 'VAF', 'NEH', 'DUX', 'QUD', 'JAV', 'HOV', 'YEZ', 'RUP', 'WAZ', 'KOQ', 'SAF', 'QIG', 'VUW', 'QIH', 'HIW'];
-this.state.stimulus_3_bucket = ['CET', 'QUM', 'LIY', 'YUG', 'XUW', 'GAC', 'QEH', 'PAZ', 'XIP', 'GIM', 'DOZ', 'JAF', 'FUH', 'KEZ', 'SOR', 'XEG', 'MIV', 'YIH', 'BIQ', 'VUY', 'XUG', 'PID', 'SEK', 'DUK', 'HIZ', 'YEV', 'COH', 'QUB', 'GEG', 'VAX', 'VEC', 'GUJ', 'YIC', 'CIW', 'POB', 'FEQ', 'VUD', 'QAJ', 'BUJ', 'XEY', 'TIX', 'CEM', 'KIQ', 'YEQ', 'MAH', 'XUV', 'DUV', 'XAP', 'NIN', 'HUR', 'PUQ', 'PUZ', 'QOM', 'XIM', 'VEJ', 'FAL', 'HED', 'CAH', 'GEZ', 'BAJ', 'HIR', 'YIL', 'QOD', 'DOD', 'YUX', 'YIQ', 'DEC', 'KUJ', 'NUW', 'SAH', 'FUM', 'SIL', 'WOH', 'WER', 'PIQ', 'JEX', 'KUQ', 'FAV', 'KUC', 'NAK', 'YAF', 'GIZ', 'XOY', 'XUR', 'SUJ', 'QIV', 'FUV', 'CAQ', 'BAC', 'CAC', 'GAZ', 'VUK', 'CIZ', 'VOV', 'XOT', 'HOJ', 'JAD', 'SUD', 'LIV', 'TOX', 'HUW', 'CED', 'XOG', 'HEZ', 'BEX', 'KED', 'FUQ', 'LIQ', 'MEZ', 'XAS', 'NEC', 'XAG', 'JAL', 'VEB', 'VEM', 'REZ', 'GEJ', 'JOM', 'WUB', 'VAD', 'MOJ', 'BUC', 'WUR', 'QOW', 'VED', 'QEQ', 'FEM', 'CEQ', 'PAV', 'XOH', 'CAZ', 'GOZ', 'HEC', 'TEK', 'CIJ', 'VEQ', 'YOJ', 'NEF', 'NUZ', 'XEV', 'REJ', 'SUQ', 'FOT', 'YOC', 'KAW', 'YUN', 'XAJ', 'JUY', 'KIS', 'LUH', 'GOS', 'BEC', 'KAC', 'XOV', 'COF', 'TEM', 'MAV', 'BER', 'WUN', 'KUX', 'COM', 'ROM', 'FUJ', 'NAF', 'JOR', 'YIW', 'FAW', 'WIF', 'VIR', 'FOJ', 'MEF', 'VOQ', 'VIQ', 'WID', 'FIV', 'PIW', 'LEC', 'XEK', 'YAQ', 'QEC', 'YOS', 'XED', 'YUJ', 'RUD', 'YEF', 'XAM', 'BUQ', 'NER', 'XAD', 'YER', 'YUR', 'JIQ', 'JAJ', 'XAF', 'CIQ', 'VID', 'LIR', 'WEZ', 'SIQ', 'MUC', 'NAZ', 'SIH', 'CUC', 'MEK', 'WOQ', 'GUX', 'PAJ', 'XAN', 'FUS', 'QUK', 'DUQ', 'DEZ', 'LAL', 'VEZ', 'SOV', 'BEJ', 'PUV', 'COJ', 'FAZ', 'NEQ', 'KIB', 'ROJ', 'WIC', 'JES', 'HOS', 'TUV', 'QAN', 'MUH', 'WUQ', 'HAV', 'BAP', 'XIJ', 'YAD', 'FAM', 'NEM', 'QAZ', 'WUJ', 'HUY', 'PAG', 'JOP', 'XOQ', 'VAM', 'CEG', 'VUZ', 'CEN', 'BEM', 'WOC', 'KUV', 'YAX'];
-this.state.stimulus_4_bucket = ['CEB', 'FIQ', 'YEY', 'LAH', 'LAV', 'LOY', 'BEW', 'FEV', 'CUZ', 'XOM', 'SAR', 'MUJ', 'MIW', 'XOB', 'RIQ', 'XOD', 'YUY', 'FOL', 'VAY', 'TOB', 'DUY', 'WIV', 'YED', 'GAW', 'JIK', 'SUK', 'XAB', 'YIY', 'LIG', 'VUJ', 'GUV', 'RUQ', 'XOP', 'HEH', 'MUZ', 'MUQ', 'YEG', 'BEZ', 'BIF', 'VEK', 'XIK', 'YUZ', 'NIR', 'CIV', 'KUN', 'XOR', 'YAT', 'DOJ', 'XER', 'XUK', 'YEJ', 'YAN', 'NEJ', 'TAZ', 'YUS', 'KUW', 'SEZ', 'WEP', 'KOD', 'LOQ', 'SEG', 'KER', 'JEP', 'XEC', 'PUM', 'BEP', 'DIY', 'WOV', 'KUF', 'XUP', 'YIZ', 'SIV', 'WUP', 'HIB', 'QEM', 'FEB', 'HAQ', 'KUD', 'XUT', 'QUR', 'JUW', 'TIR', 'CEX', 'YEX', 'BEB', 'JUL', 'FIF', 'XOW', 'CUV', 'JAH', 'BOH', 'WUL', 'TUJ', 'QEV', 'JOD', 'VAZ', 'XUH', 'PUX', 'MEX', 'WIW', 'VUF', 'XUF', 'HUK', 'NIQ', 'TUZ', 'NIZ', 'RUX', 'QAF', 'GON', 'GIW', 'RAR', 'NAJ', 'QAH', 'TEF', 'SIF', 'JUP', 'HUV', 'YIS', 'VEF', 'KAZ', 'JEJ', 'XEX', 'PIB', 'PEZ', 'VUV', 'XIV', 'LUK', 'MIQ', 'BIW', 'HIL', 'MUW', 'CUH', 'TIH', 'NUV', 'CUG', 'XAW', 'TEH', 'TOC', 'TEP', 'QUS', 'SIJ', 'VOY', 'YAG', 'JOC', 'LEP', 'NAH', 'DIC', 'PUY', 'TEJ', 'CEV', 'YAC', 'HOH', 'JIW', 'HEJ', 'TUQ', 'XIL', 'YAZ', 'DIZ', 'YIM', 'KET', 'WEC', 'FAC', 'BIV', 'HEQ', 'SUH', 'CIL', 'QEF', 'KOY', 'GUZ', 'KEB', 'JOV', 'WEX', 'WOX', 'XUJ', 'JOF', 'XOZ', 'JEV', 'SOZ', 'SUT', 'XIN', 'GEC', 'RUJ', 'JEQ', 'BOJ', 'QOJ', 'WEJ', 'TEZ', 'SEQ', 'FUF', 'ROP', 'BIR', 'XEB', 'VOZ', 'FUK', 'MOY', 'VIL', 'HAX', 'QER', 'XOF', 'XAX', 'NIV', 'GOP', 'KEM', 'YIT', 'WOF', 'DAC', 'JEZ', 'WIH', 'JUH', 'KOZ', 'JIX', 'FEJ', 'MEQ', 'QEJ', 'XEZ', 'YAJ', 'DIQ', 'MUY', 'QUN', 'HIY', 'JEH', 'QUY', 'QAM', 'SEM', 'ROV', 'CIG', 'BEH', 'HUQ', 'YEK', 'GIK', 'DEG', 'WIY', 'KIC', 'LEJ', 'NUP', 'JUQ', 'CIR', 'QUT', 'VAQ', 'FUZ', 'KUY', 'KIZ', 'NAV', 'MOV', 'GIX', 'JOQ', 'WOB', 'LAZ', 'GEQ', 'SEF', 'TIV', 'LUZ'];
-this.state.stimulus_5_bucket = ['JAX', 'QUG', 'JOJ', 'QIF', 'DOY', 'JEM', 'KAJ', 'JUM', 'QIZ', 'TUM', 'VIG', 'XAK', 'YOK', 'TID', 'KAG', 'CIT', 'GOV', 'LUR', 'GUD', 'WOD', 'FUP', 'XIT', 'SUY', 'VAH', 'CAV', 'PUJ', 'QAC', 'FEG', 'BAW', 'WUK', 'DEQ', 'DAV', 'YOL', 'NOZ', 'SES', 'TAQ', 'DAZ', 'JEG', 'YOY', 'ROF', 'KIX', 'SEH', 'CER', 'NAL', 'GEX', 'QOY', 'LUV', 'BOQ', 'KAX', 'QOT', 'YUL', 'GUH', 'BUW', 'FAH', 'GUW', 'TIF', 'SIZ', 'BIH', 'CIN', 'QOV', 'VIB', 'DED', 'GAK', 'RUZ', 'LOD', 'XUC', 'XEH', 'GIV', 'HAB', 'RAZ', 'HON', 'FIW', 'WUV', 'GAQ', 'MAJ', 'XAL', 'FEK', 'BOV', 'KIJ', 'TUC', 'VOT', 'QAB', 'MIH', 'QIW', 'YUW', 'KUG', 'YAL', 'FAF', 'KEL', 'FUL', 'FUC', 'VOH', 'WAC', 'BUH', 'LUJ', 'TUW', 'QEB', 'QIL', 'KUR', 'WUG', 'TOQ', 'VEY', 'GEH', 'TEX', 'TOJ', 'VUR', 'VOB', 'RIX', 'GEB', 'WEK', 'BEQ', 'RIY', 'FOS', 'DEJ', 'LUN', 'KOV', 'SUG', 'FOF', 'QEY', 'XAQ', 'QUF', 'QIN', 'XIQ', 'VIH', 'PUH', 'NUQ', 'QOQ', 'LIF', 'WOR', 'DIH', 'BOC', 'QOH', 'XOL', 'TUH', 'LUQ', 'XUM', 'DUH', 'GIY', 'JOZ', 'NOF', 'COR', 'QEW', 'NIH', 'NOX', 'WOJ', 'BIZ', 'VUM', 'TUD', 'GAX', 'JEL', 'HUJ', 'MOZ', 'SEV', 'NIG', 'XAR', 'YOT', 'GUR', 'POG', 'XUB', 'QAS', 'RUF', 'FOZ', 'PEX', 'NOY', 'VEH', 'NUY', 'XON', 'TAY', 'TUR', 'RIW', 'HEV', 'VEP', 'PEF', 'PEV', 'PIH', 'CUJ', 'FOD', 'DOB', 'YUT', 'SUZ', 'BAV', 'FAK', 'YIX', 'TIB', 'MUK', 'TOH', 'VUX', 'POJ', 'XUZ', 'VUT', 'FAJ', 'XET', 'FOQ', 'SAJ', 'WIQ', 'YOG', 'FEH', 'WUT', 'DAQ', 'XEL', 'MOQ', 'CEC', 'WUZ', 'VUB', 'RIH', 'QEN', 'JAZ', 'KAD', 'FOC', 'WUY', 'NIC', 'FOV', 'KOX', 'KOW', 'QAX', 'PIZ', 'XAH', 'KEW', 'VEV', 'LEH', 'QAD', 'GEP', 'LAN', 'YUH'];
+stimulus_1_bucket = ['BOR', 'COC', 'WUC', 'QOZ', 'NEZ', 'VOM', 'LAJ', 'XUL', 'WAQ', 'QIK', 'QEZ', 'DIL', 'WAJ', 'XEM', 'CUQ', 'CEY', 'QIQ', 'MOX', 'JIV', 'NUH', 'RUH', 'JIZ', 'TEB', 'GUC', 'LIX', 'XEJ', 'JAQ', 'POZ', 'DUJ', 'JAC', 'SOH', 'JIS', 'NAC', 'QOP', 'YOV', 'NAS', 'KUK', 'YIK', 'YIF', 'GOF', 'JEC', 'YUC', 'CIH', 'KUP', 'WUW', 'XEP', 'CIP', 'QAG', 'CIM', 'CUW', 'JUZ', 'YOZ', 'SAZ', 'REW', 'CAX', 'FAP', 'BUX', 'KOH', 'RER', 'QIX', 'FUX', 'VUP', 'FIP', 'KIV', 'XUD', 'QOF', 'MOH', 'HAZ', 'LIM', 'GIQ', 'BUZ', 'GUG', 'KES', 'HOX', 'MIF', 'QOB', 'VAP', 'XUX', 'QOS', 'QED', 'NUX', 'WAV', 'BIX', 'XIC', 'COV', 'NIJ', 'JIR', 'QUC', 'YEC', 'DUM', 'RAQ', 'QES', 'DAF', 'XAT', 'MEB', 'WEW', 'NAQ', 'XEN', 'BUK', 'MUP', 'ROQ', 'NAX', 'YIR', 'SED', 'WIB', 'XIH', 'RUR', 'KAQ', 'PUW', 'POC', 'JIH', 'XUS', 'QIJ', 'PEC', 'QEL', 'MEV', 'XIB', 'CAG', 'QUX', 'YUD', 'TOS', 'GER', 'MEY', 'MUX', 'JEK', 'YIG', 'QIP', 'CIC', 'CUK', 'XAV', 'YIJ', 'XIR', 'TEC', 'YAS', 'NIF', 'LOZ', 'SAV', 'CAF', 'WEY', 'GAJ', 'KUZ', 'FEF', 'GIR', 'WEV', 'QUZ', 'CIB', 'REQ', 'SEJ', 'DUZ', 'KUM', 'XAZ', 'TUS', 'CID', 'YEB', 'XOC', 'NUJ', 'GUQ', 'HIX', 'TIY', 'BUP', 'HAC', 'QEK', 'QEX', 'SIY', 'GOL', 'NUG', 'QIR', 'CEF', 'CEZ', 'TEV', 'QIY', 'KEC', 'YUV', 'LOH', 'YEM', 'KIH', 'QIC', 'YOH', 'QUP', 'SUS', 'GUK', 'YAV', 'TEY', 'CEW', 'QUH', 'GOC', 'HOZ', 'VOR', 'KIW', 'XIW', 'LIC', 'XAC', 'PAB', 'DEP', 'BAQ', 'XEF', 'LOV', 'HOQ', 'FUW', 'QET', 'LAQ', 'MOC', 'POQ', 'KOB', 'QEG', 'GOG', 'WEQ', 'SUV', 'YUQ', 'QON', 'PEH', 'VUN', 'FIJ', 'PIM', 'RUY', 'LUC', 'MUB', 'JIC', 'WUF', 'PIR', 'PEM', 'JIP', 'WUH', 'LUP', 'MEH', 'DOX', 'PIV', 'VOK', 'LEZ', 'HIG', 'VUH', 'YOR', 'HUZ', 'RUC', 'QOR', 'PEB', 'XIZ', 'XIF', 'SIW', 'XOK', 'RIR', 'TIQ', 'VEW', 'ROR', 'JEY', 'FUY', 'QOL'];
+stimulus_2_bucket = ['SUR', 'VUS', 'BAZ', 'WEH', 'KEH', 'YOP', 'GAH', 'XEW', 'NIY', 'JOX', 'GEW', 'CIK', 'FEC', 'TOZ', 'CEJ', 'CEH', 'MAZ', 'RAC', 'NUM', 'GEV', 'CAS', 'QAQ', 'PEQ', 'XID', 'QOG', 'NOJ', 'YOQ', 'LUD', 'VUL', 'QAV', 'BAX', 'PIF', 'KOJ', 'CIF', 'SEP', 'QUV', 'CUL', 'ROX', 'FIM', 'NUC', 'QIM', 'PEJ', 'SAQ', 'QAR', 'KEQ', 'MED', 'GEF', 'POV', 'RAV', 'HUD', 'NAM', 'DOH', 'JER', 'TIZ', 'JUV', 'NEX', 'CIX', 'LUY', 'XIG', 'NOC', 'TUY', 'YAB', 'QOK', 'DUL', 'NOV', 'LIH', 'PIY', 'WUX', 'BIY', 'NEN', 'VUQ', 'DEF', 'SOG', 'XIX', 'BUF', 'GOW', 'CUX', 'HIQ', 'VIY', 'BIM', 'SOC', 'QEP', 'HIF', 'KAH', 'QAY', 'WEF', 'LUB', 'MUR', 'VIK', 'JUJ', 'MEJ', 'JIT', 'DIW', 'NID', 'PEY', 'LUF', 'VAJ', 'NIK', 'XAY', 'VIJ', 'JOS', 'YUF', 'SEB', 'TEQ', 'KOC', 'VIZ', 'TAC', 'DET', 'KAV', 'TOV', 'SUW', 'KAL', 'KIG', 'PUC', 'SUC', 'RUV', 'CIY', 'CEP', 'MUV', 'JIF', 'BOZ', 'QUL', 'YEL', 'GOQ', 'QIS', 'YUB', 'QAK', 'QUJ', 'NIW', 'FIH', 'MAQ', 'QAL', 'SOQ', 'HUF', 'GIC', 'NOQ', 'QUQ', 'TIW', 'MER', 'VOG', 'JUC', 'VES', 'TES', 'NEY', 'JUX', 'XUQ', 'LOJ', 'QIB', 'VIW', 'BUV', 'DAJ', 'XEQ', 'LEQ', 'PAQ', 'MEC', 'SOJ', 'FEX', 'VOC', 'QAW', 'GUB', 'LIW', 'HUX', 'YOF', 'XUY', 'HUS', 'WOY', 'JUR', 'HUC', 'CUY', 'RIZ', 'CEK', 'VIX', 'CUS', 'QOC', 'VUC', 'NUD', 'HIH', 'YOX', 'WIM', 'FIC', 'CUF', 'XOJ', 'XES', 'JIY', 'XUN', 'XIY', 'QID', 'YIV', 'FOW', 'GUF', 'TAH', 'MIY', 'FAQ', 'QAP', 'COQ', 'XOS', 'CAJ', 'GIH', 'MIP', 'DOQ', 'QOX', 'VOP', 'WOM', 'WAH', 'SEY', 'MIZ', 'WIX', 'DIF', 'DEH', 'KEJ', 'CUN', 'KUB', 'QUW', 'WUM', 'VAB', 'VIF', 'KIY', 'POY', 'XOX', 'YIB', 'LUT', 'WOZ', 'RIV', 'FOM', 'VAF', 'NEH', 'DUX', 'QUD', 'JAV', 'HOV', 'YEZ', 'RUP', 'WAZ', 'KOQ', 'SAF', 'QIG', 'VUW', 'QIH', 'HIW'];
+stimulus_3_bucket = ['CET', 'QUM', 'LIY', 'YUG', 'XUW', 'GAC', 'QEH', 'PAZ', 'XIP', 'GIM', 'DOZ', 'JAF', 'FUH', 'KEZ', 'SOR', 'XEG', 'MIV', 'YIH', 'BIQ', 'VUY', 'XUG', 'PID', 'SEK', 'DUK', 'HIZ', 'YEV', 'COH', 'QUB', 'GEG', 'VAX', 'VEC', 'GUJ', 'YIC', 'CIW', 'POB', 'FEQ', 'VUD', 'QAJ', 'BUJ', 'XEY', 'TIX', 'CEM', 'KIQ', 'YEQ', 'MAH', 'XUV', 'DUV', 'XAP', 'NIN', 'HUR', 'PUQ', 'PUZ', 'QOM', 'XIM', 'VEJ', 'FAL', 'HED', 'CAH', 'GEZ', 'BAJ', 'HIR', 'YIL', 'QOD', 'DOD', 'YUX', 'YIQ', 'DEC', 'KUJ', 'NUW', 'SAH', 'FUM', 'SIL', 'WOH', 'WER', 'PIQ', 'JEX', 'KUQ', 'FAV', 'KUC', 'NAK', 'YAF', 'GIZ', 'XOY', 'XUR', 'SUJ', 'QIV', 'FUV', 'CAQ', 'BAC', 'CAC', 'GAZ', 'VUK', 'CIZ', 'VOV', 'XOT', 'HOJ', 'JAD', 'SUD', 'LIV', 'TOX', 'HUW', 'CED', 'XOG', 'HEZ', 'BEX', 'KED', 'FUQ', 'LIQ', 'MEZ', 'XAS', 'NEC', 'XAG', 'JAL', 'VEB', 'VEM', 'REZ', 'GEJ', 'JOM', 'WUB', 'VAD', 'MOJ', 'BUC', 'WUR', 'QOW', 'VED', 'QEQ', 'FEM', 'CEQ', 'PAV', 'XOH', 'CAZ', 'GOZ', 'HEC', 'TEK', 'CIJ', 'VEQ', 'YOJ', 'NEF', 'NUZ', 'XEV', 'REJ', 'SUQ', 'FOT', 'YOC', 'KAW', 'YUN', 'XAJ', 'JUY', 'KIS', 'LUH', 'GOS', 'BEC', 'KAC', 'XOV', 'COF', 'TEM', 'MAV', 'BER', 'WUN', 'KUX', 'COM', 'ROM', 'FUJ', 'NAF', 'JOR', 'YIW', 'FAW', 'WIF', 'VIR', 'FOJ', 'MEF', 'VOQ', 'VIQ', 'WID', 'FIV', 'PIW', 'LEC', 'XEK', 'YAQ', 'QEC', 'YOS', 'XED', 'YUJ', 'RUD', 'YEF', 'XAM', 'BUQ', 'NER', 'XAD', 'YER', 'YUR', 'JIQ', 'JAJ', 'XAF', 'CIQ', 'VID', 'LIR', 'WEZ', 'SIQ', 'MUC', 'NAZ', 'SIH', 'CUC', 'MEK', 'WOQ', 'GUX', 'PAJ', 'XAN', 'FUS', 'QUK', 'DUQ', 'DEZ', 'LAL', 'VEZ', 'SOV', 'BEJ', 'PUV', 'COJ', 'FAZ', 'NEQ', 'KIB', 'ROJ', 'WIC', 'JES', 'HOS', 'TUV', 'QAN', 'MUH', 'WUQ', 'HAV', 'BAP', 'XIJ', 'YAD', 'FAM', 'NEM', 'QAZ', 'WUJ', 'HUY', 'PAG', 'JOP', 'XOQ', 'VAM', 'CEG', 'VUZ', 'CEN', 'BEM', 'WOC', 'KUV', 'YAX'];
+stimulus_4_bucket = ['CEB', 'FIQ', 'YEY', 'LAH', 'LAV', 'LOY', 'BEW', 'FEV', 'CUZ', 'XOM', 'SAR', 'MUJ', 'MIW', 'XOB', 'RIQ', 'XOD', 'YUY', 'FOL', 'VAY', 'TOB', 'DUY', 'WIV', 'YED', 'GAW', 'JIK', 'SUK', 'XAB', 'YIY', 'LIG', 'VUJ', 'GUV', 'RUQ', 'XOP', 'HEH', 'MUZ', 'MUQ', 'YEG', 'BEZ', 'BIF', 'VEK', 'XIK', 'YUZ', 'NIR', 'CIV', 'KUN', 'XOR', 'YAT', 'DOJ', 'XER', 'XUK', 'YEJ', 'YAN', 'NEJ', 'TAZ', 'YUS', 'KUW', 'SEZ', 'WEP', 'KOD', 'LOQ', 'SEG', 'KER', 'JEP', 'XEC', 'PUM', 'BEP', 'DIY', 'WOV', 'KUF', 'XUP', 'YIZ', 'SIV', 'WUP', 'HIB', 'QEM', 'FEB', 'HAQ', 'KUD', 'XUT', 'QUR', 'JUW', 'TIR', 'CEX', 'YEX', 'BEB', 'JUL', 'FIF', 'XOW', 'CUV', 'JAH', 'BOH', 'WUL', 'TUJ', 'QEV', 'JOD', 'VAZ', 'XUH', 'PUX', 'MEX', 'WIW', 'VUF', 'XUF', 'HUK', 'NIQ', 'TUZ', 'NIZ', 'RUX', 'QAF', 'GON', 'GIW', 'RAR', 'NAJ', 'QAH', 'TEF', 'SIF', 'JUP', 'HUV', 'YIS', 'VEF', 'KAZ', 'JEJ', 'XEX', 'PIB', 'PEZ', 'VUV', 'XIV', 'LUK', 'MIQ', 'BIW', 'HIL', 'MUW', 'CUH', 'TIH', 'NUV', 'CUG', 'XAW', 'TEH', 'TOC', 'TEP', 'QUS', 'SIJ', 'VOY', 'YAG', 'JOC', 'LEP', 'NAH', 'DIC', 'PUY', 'TEJ', 'CEV', 'YAC', 'HOH', 'JIW', 'HEJ', 'TUQ', 'XIL', 'YAZ', 'DIZ', 'YIM', 'KET', 'WEC', 'FAC', 'BIV', 'HEQ', 'SUH', 'CIL', 'QEF', 'KOY', 'GUZ', 'KEB', 'JOV', 'WEX', 'WOX', 'XUJ', 'JOF', 'XOZ', 'JEV', 'SOZ', 'SUT', 'XIN', 'GEC', 'RUJ', 'JEQ', 'BOJ', 'QOJ', 'WEJ', 'TEZ', 'SEQ', 'FUF', 'ROP', 'BIR', 'XEB', 'VOZ', 'FUK', 'MOY', 'VIL', 'HAX', 'QER', 'XOF', 'XAX', 'NIV', 'GOP', 'KEM', 'YIT', 'WOF', 'DAC', 'JEZ', 'WIH', 'JUH', 'KOZ', 'JIX', 'FEJ', 'MEQ', 'QEJ', 'XEZ', 'YAJ', 'DIQ', 'MUY', 'QUN', 'HIY', 'JEH', 'QUY', 'QAM', 'SEM', 'ROV', 'CIG', 'BEH', 'HUQ', 'YEK', 'GIK', 'DEG', 'WIY', 'KIC', 'LEJ', 'NUP', 'JUQ', 'CIR', 'QUT', 'VAQ', 'FUZ', 'KUY', 'KIZ', 'NAV', 'MOV', 'GIX', 'JOQ', 'WOB', 'LAZ', 'GEQ', 'SEF', 'TIV', 'LUZ'];
+stimulus_5_bucket = ['JAX', 'QUG', 'JOJ', 'QIF', 'DOY', 'JEM', 'KAJ', 'JUM', 'QIZ', 'TUM', 'VIG', 'XAK', 'YOK', 'TID', 'KAG', 'CIT', 'GOV', 'LUR', 'GUD', 'WOD', 'FUP', 'XIT', 'SUY', 'VAH', 'CAV', 'PUJ', 'QAC', 'FEG', 'BAW', 'WUK', 'DEQ', 'DAV', 'YOL', 'NOZ', 'SES', 'TAQ', 'DAZ', 'JEG', 'YOY', 'ROF', 'KIX', 'SEH', 'CER', 'NAL', 'GEX', 'QOY', 'LUV', 'BOQ', 'KAX', 'QOT', 'YUL', 'GUH', 'BUW', 'FAH', 'GUW', 'TIF', 'SIZ', 'BIH', 'CIN', 'QOV', 'VIB', 'DED', 'GAK', 'RUZ', 'LOD', 'XUC', 'XEH', 'GIV', 'HAB', 'RAZ', 'HON', 'FIW', 'WUV', 'GAQ', 'MAJ', 'XAL', 'FEK', 'BOV', 'KIJ', 'TUC', 'VOT', 'QAB', 'MIH', 'QIW', 'YUW', 'KUG', 'YAL', 'FAF', 'KEL', 'FUL', 'FUC', 'VOH', 'WAC', 'BUH', 'LUJ', 'TUW', 'QEB', 'QIL', 'KUR', 'WUG', 'TOQ', 'VEY', 'GEH', 'TEX', 'TOJ', 'VUR', 'VOB', 'RIX', 'GEB', 'WEK', 'BEQ', 'RIY', 'FOS', 'DEJ', 'LUN', 'KOV', 'SUG', 'FOF', 'QEY', 'XAQ', 'QUF', 'QIN', 'XIQ', 'VIH', 'PUH', 'NUQ', 'QOQ', 'LIF', 'WOR', 'DIH', 'BOC', 'QOH', 'XOL', 'TUH', 'LUQ', 'XUM', 'DUH', 'GIY', 'JOZ', 'NOF', 'COR', 'QEW', 'NIH', 'NOX', 'WOJ', 'BIZ', 'VUM', 'TUD', 'GAX', 'JEL', 'HUJ', 'MOZ', 'SEV', 'NIG', 'XAR', 'YOT', 'GUR', 'POG', 'XUB', 'QAS', 'RUF', 'FOZ', 'PEX', 'NOY', 'VEH', 'NUY', 'XON', 'TAY', 'TUR', 'RIW', 'HEV', 'VEP', 'PEF', 'PEV', 'PIH', 'CUJ', 'FOD', 'DOB', 'YUT', 'SUZ', 'BAV', 'FAK', 'YIX', 'TIB', 'MUK', 'TOH', 'VUX', 'POJ', 'XUZ', 'VUT', 'FAJ', 'XET', 'FOQ', 'SAJ', 'WIQ', 'YOG', 'FEH', 'WUT', 'DAQ', 'XEL', 'MOQ', 'CEC', 'WUZ', 'VUB', 'RIH', 'QEN', 'JAZ', 'KAD', 'FOC', 'WUY', 'NIC', 'FOV', 'KOX', 'KOW', 'QAX', 'PIZ', 'XAH', 'KEW', 'VEV', 'LEH', 'QAD', 'GEP', 'LAN', 'YUH'];
 
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
-this.state.stimulus_5 = this.state.stimulus_5_bucket[Math.random() * this.state.stimulus_5_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
+this.state.stimulus_5 = stimulus_5_bucket[Math.random() * stimulus_5_bucket.length | 0];
 
 this.parameters.stim_1 = this.state.stimulus_1
 this.parameters.stim_2 = this.state.stimulus_2
@@ -1815,12 +1815,12 @@ clearInterval(downloadTimer);
                       "left": -250,
                       "top": 250,
                       "angle": 0,
-                      "width": 32.68,
+                      "width": 56.03,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "JA",
+                      "text": "YES",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -1833,12 +1833,12 @@ clearInterval(downloadTimer);
                       "left": 250,
                       "top": 250,
                       "angle": 0,
-                      "width": 57.57,
+                      "width": 42,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "NEE",
+                      "text": "NO",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -1887,12 +1887,12 @@ clearInterval(downloadTimer);
                       "left": 0,
                       "top": -200,
                       "angle": 0,
-                      "width": 400.66,
+                      "width": 381.98,
                       "height": 27.12,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "black",
-                      "text": "Trial ${parameters.trial_num} van 128",
+                      "text": "Trial ${parameters.trial_num} of 128",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "24",
@@ -2018,28 +2018,23 @@ if (this.parameters.q_stim_2_id == 1) {
 } else if (this.parameters.q_stim_2_id == 5) {
   this.parameters.q_stim_2 = this.state.stimulus_5;
 };
-
-
-
-
-
 },
                     "after:end": function anonymous(
 ) {
 // remove currently used stimuli from buckets
-this.state.stimulus_1_bucket = this.state.stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
-this.state.stimulus_2_bucket = this.state.stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
-this.state.stimulus_3_bucket = this.state.stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
-this.state.stimulus_4_bucket = this.state.stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
-this.state.stimulus_5_bucket = this.state.stimulus_5_bucket.filter(item => item !== this.state.stimulus_5)
+stimulus_1_bucket = stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
+stimulus_2_bucket = stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
+stimulus_3_bucket = stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
+stimulus_4_bucket = stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
+stimulus_5_bucket = stimulus_5_bucket.filter(item => item !== this.state.stimulus_5)
 
 
 // select the new stimuli for the next trial //
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
-this.state.stimulus_5 = this.state.stimulus_5_bucket[Math.random() * this.state.stimulus_5_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
+this.state.stimulus_5 = stimulus_5_bucket[Math.random() * stimulus_5_bucket.length | 0];
 
 if (this.state.correct == 1) {
   this.state.total_correct += 1
@@ -2228,7 +2223,7 @@ if (this.state.correct == 1) {
               "q_rel": "het tegenovergestelde van",
               "q_stim_3_id": "4",
               "q_stim_4_id": "3",
-              "correct_response": "no"
+              "correct_response": "yes"
             },
             {
               "block": "6",
@@ -2278,10 +2273,10 @@ if (this.state.correct == 1) {
             "before:prepare": function anonymous(
 ) {
 
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
 
 this.parameters.stim_1 = this.state.stimulus_1
 this.parameters.stim_2 = this.state.stimulus_2
@@ -2430,12 +2425,12 @@ clearInterval(downloadTimer);
                       "left": -250,
                       "top": 250,
                       "angle": 0,
-                      "width": 32.68,
+                      "width": 56.03,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "JA",
+                      "text": "YES",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -2448,12 +2443,12 @@ clearInterval(downloadTimer);
                       "left": 250,
                       "top": 250,
                       "angle": 0,
-                      "width": 57.57,
+                      "width": 42,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "NEE",
+                      "text": "NO",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -2484,12 +2479,12 @@ clearInterval(downloadTimer);
                       "left": 0,
                       "top": -200,
                       "angle": 0,
-                      "width": 400.66,
+                      "width": 381.98,
                       "height": 27.12,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "black",
-                      "text": "Trial ${parameters.trial_num} van 128",
+                      "text": "Trial ${parameters.trial_num} of 128",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "24",
@@ -2548,18 +2543,17 @@ if (this.parameters.q_stim_2_id == 1) {
 },
                     "after:end": function anonymous(
 ) {
-// remove currently used stimuli from buckets 
-this.state.stimulus_1_bucket = this.state.stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
-this.state.stimulus_2_bucket = this.state.stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
-this.state.stimulus_3_bucket = this.state.stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
-this.state.stimulus_4_bucket = this.state.stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
-
+// remove currently used stimuli from buckets
+stimulus_1_bucket = stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
+stimulus_2_bucket = stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
+stimulus_3_bucket = stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
+stimulus_4_bucket = stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
 
 // select the new stimuli for the next trial //
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
 
 if (this.state.correct == 1) {
   this.state.total_correct += 1
@@ -2958,10 +2952,10 @@ if (this.state.correct == 1) {
             "before:prepare": function anonymous(
 ) {
 
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
 
 this.parameters.stim_1 = this.state.stimulus_1
 this.parameters.stim_2 = this.state.stimulus_2
@@ -3110,12 +3104,12 @@ clearInterval(downloadTimer);
                       "left": -250,
                       "top": 250,
                       "angle": 0,
-                      "width": 32.68,
+                      "width": 56.03,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "JA",
+                      "text": "YES",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -3128,12 +3122,12 @@ clearInterval(downloadTimer);
                       "left": 250,
                       "top": 250,
                       "angle": 0,
-                      "width": 57.57,
+                      "width": 42,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "NEE",
+                      "text": "NO",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -3164,12 +3158,12 @@ clearInterval(downloadTimer);
                       "left": 0,
                       "top": -200,
                       "angle": 0,
-                      "width": 400.66,
+                      "width": 381.98,
                       "height": 27.12,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "black",
-                      "text": "Trial ${parameters.trial_num} van 128",
+                      "text": "Trial ${parameters.trial_num} of 128",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "24",
@@ -3272,18 +3266,17 @@ if (this.parameters.q_stim_2_id == 1) {
 },
                     "after:end": function anonymous(
 ) {
-// remove currently used stimuli from buckets 
-this.state.stimulus_1_bucket = this.state.stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
-this.state.stimulus_2_bucket = this.state.stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
-this.state.stimulus_3_bucket = this.state.stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
-this.state.stimulus_4_bucket = this.state.stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
-
+// remove currently used stimuli from buckets
+stimulus_1_bucket = stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
+stimulus_2_bucket = stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
+stimulus_3_bucket = stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
+stimulus_4_bucket = stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
 
 // select the new stimuli for the next trial //
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
 
 if (this.state.correct == 1) {
   this.state.total_correct += 1
@@ -3554,10 +3547,10 @@ if (this.state.correct == 1) {
             "before:prepare": function anonymous(
 ) {
 
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
 
 this.parameters.stim_1 = this.state.stimulus_1
 this.parameters.stim_2 = this.state.stimulus_2
@@ -3706,12 +3699,12 @@ clearInterval(downloadTimer);
                       "left": -250,
                       "top": 250,
                       "angle": 0,
-                      "width": 32.68,
+                      "width": 56.03,
                       "height": 31.64,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "#ffffff",
-                      "text": "JA",
+                      "text": "YES",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "28",
@@ -3760,12 +3753,12 @@ clearInterval(downloadTimer);
                       "left": 0,
                       "top": -200,
                       "angle": 0,
-                      "width": 400.66,
+                      "width": 381.98,
                       "height": 27.12,
                       "stroke": null,
                       "strokeWidth": 1,
                       "fill": "black",
-                      "text": "Trial ${parameters.trial_num} van 128",
+                      "text": "Trial ${parameters.trial_num} of 128",
                       "fontStyle": "normal",
                       "fontWeight": "normal",
                       "fontSize": "24",
@@ -3877,18 +3870,17 @@ if (this.parameters.q_stim_2_id == 1) {
 },
                     "after:end": function anonymous(
 ) {
-// remove currently used stimuli from buckets 
-this.state.stimulus_1_bucket = this.state.stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
-this.state.stimulus_2_bucket = this.state.stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
-this.state.stimulus_3_bucket = this.state.stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
-this.state.stimulus_4_bucket = this.state.stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
-
+// remove currently used stimuli from buckets
+stimulus_1_bucket = stimulus_1_bucket.filter(item => item !== this.state.stimulus_1)
+stimulus_2_bucket = stimulus_2_bucket.filter(item => item !== this.state.stimulus_2)
+stimulus_3_bucket = stimulus_3_bucket.filter(item => item !== this.state.stimulus_3)
+stimulus_4_bucket = stimulus_4_bucket.filter(item => item !== this.state.stimulus_4)
 
 // select the new stimuli for the next trial //
-this.state.stimulus_1 = this.state.stimulus_1_bucket[Math.random() * this.state.stimulus_1_bucket.length | 0];
-this.state.stimulus_2 = this.state.stimulus_2_bucket[Math.random() * this.state.stimulus_2_bucket.length | 0];
-this.state.stimulus_3 = this.state.stimulus_3_bucket[Math.random() * this.state.stimulus_3_bucket.length | 0];
-this.state.stimulus_4 = this.state.stimulus_4_bucket[Math.random() * this.state.stimulus_4_bucket.length | 0];
+this.state.stimulus_1 = stimulus_1_bucket[Math.random() * stimulus_1_bucket.length | 0];
+this.state.stimulus_2 = stimulus_2_bucket[Math.random() * stimulus_2_bucket.length | 0];
+this.state.stimulus_3 = stimulus_3_bucket[Math.random() * stimulus_3_bucket.length | 0];
+this.state.stimulus_4 = stimulus_4_bucket[Math.random() * stimulus_4_bucket.length | 0];
 
 if (this.state.correct == 1) {
   this.state.total_correct += 1
@@ -3927,6 +3919,11 @@ if (this.state.correct == 1) {
               "type": "text",
               "title": "Bedankt!",
               "content": "Uw antwoorden zijn opgenomen. U kunt deze pagina nu sluiten."
+            },
+            {
+              "required": true,
+              "type": "text",
+              "content": ""
             }
           ],
           "scrollTop": true,
